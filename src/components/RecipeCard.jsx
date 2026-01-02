@@ -1,12 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Clock, ChefHat } from 'lucide-react';
+import { resolveImage } from '../lib/recipes';
 
 export default function RecipeCard({ recipe }) {
     return (
         <Link to={`/recipe/${recipe.slug}`} className="recipe-card">
             <div className="card-image-wrapper">
-                <img src={recipe.image} alt={recipe.title} loading="lazy" />
+                <img src={resolveImage(recipe.image)} alt={recipe.title} loading="lazy" />
                 <div className="card-overlay" />
             </div>
             <div className="card-content">

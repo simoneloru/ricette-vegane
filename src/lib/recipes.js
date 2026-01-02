@@ -25,6 +25,16 @@ export function getAllRecipes() {
     return recipes.sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
+export function resolveImage(path) {
+    if (!path) return '';
+    if (path.startsWith('http')) return path;
+
+    // Handle local paths
+    // Remove leading slash to join cleanly with BASE_URL
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+    return `${import.meta.env.BASE_URL}${cleanPath}`;
+}
+
 export function getRecipeBySlug(slug) {
     const recipes = getAllRecipes();
     return recipes.find(r => r.slug === slug);

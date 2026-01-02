@@ -1,20 +1,25 @@
 {
   "main": {
-    "id": "99c2107988154b49",
+    "id": "adaad909cdbe5cd0",
     "type": "split",
     "children": [
       {
-        "id": "40e6f347eec7692a",
+        "id": "4db0f57f5aa55c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "c87e59c7089eb20b",
+            "id": "ff8ec882c5831084",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "src/notes/salame-di-cioccolato.md",
+                "bFile": "src/notes/salame-di-cioccolato.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: salame-di-cioccolato"
             }
           }
         ]
@@ -23,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cb79f3865a03d185",
+    "id": "881b0cec180cb5c5",
     "type": "split",
     "children": [
       {
-        "id": "18e82b89601e4aaa",
+        "id": "60e1cedc73f03535",
         "type": "tabs",
         "children": [
           {
-            "id": "95d75920152a1218",
+            "id": "403de608ad86cd7c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +49,7 @@
             }
           },
           {
-            "id": "7f11131fd55da33b",
+            "id": "4e742bdd9c006b3c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,13 +66,13 @@
             }
           },
           {
-            "id": "0c99fd79490f36cc",
+            "id": "6bb372eb09824062",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Segnalibri"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -77,20 +82,19 @@
     "width": 300
   },
   "right": {
-    "id": "6eb55d9667a28bec",
+    "id": "3d6691ba4ab31887",
     "type": "split",
     "children": [
       {
-        "id": "d863c23d5b4a23be",
+        "id": "7644cb9607cae487",
         "type": "tabs",
         "children": [
           {
-            "id": "315b00b69639d0e9",
+            "id": "51dab4d10ecdeace",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Salame di Cioccolato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Salame di Cioccolato"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "2378ceb2c1a7f8d0",
+            "id": "7b247a7df7053adf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Salame di Cioccolato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da Salame di Cioccolato"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "c850c6b3aadcf6c1",
+            "id": "676826cd22ebe104",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +136,7 @@
             }
           },
           {
-            "id": "bb9ebdcff0c79f2f",
+            "id": "49d77af2c9041f1a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,22 +150,31 @@
             }
           },
           {
-            "id": "5974dd69900703ae",
+            "id": "1e375b97a8640c88",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Salame di Cioccolato.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di Salame di Cioccolato"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "514edd11391d2cb8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -177,12 +189,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95d75920152a1218",
+  "active": "514edd11391d2cb8",
   "lastOpenFiles": [
-    "Untitled",
-    "Salame di Cioccolato.md"
+    "public/img",
+    "src/notes/salame-di-cioccolato.md",
+    "dist/assets/index-Ce2mM6FZ.js"
   ]
 }

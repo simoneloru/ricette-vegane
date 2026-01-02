@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { getRecipeBySlug } from '../lib/recipes';
+import { getRecipeBySlug, resolveImage } from '../lib/recipes';
 import IngredientList from '../components/IngredientList';
 import { Clock, ChefHat, ArrowLeft } from 'lucide-react';
 
@@ -21,7 +21,7 @@ export default function RecipePage() {
     return (
         <div className="recipe-page">
             <div className="recipe-hero-image">
-                <img src={recipe.image} alt={recipe.title} />
+                <img src={resolveImage(recipe.image)} alt={recipe.title} />
                 <div className="overlay"></div>
                 <div className="hero-text container">
                     <Link to="/" className="back-link"><ArrowLeft size={16} /> Tutte le Ricette</Link>
