@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/notes/salame-di-cioccolato.md",
+                "file": "src/notes/brownies-vegani.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "salame-di-cioccolato"
+              "title": "brownies-vegani"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/notes/salame-di-cioccolato.md",
+                "file": "src/notes/brownies-vegani.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for salame-di-cioccolato"
+              "title": "Backlinks for brownies-vegani"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/notes/salame-di-cioccolato.md",
+                "file": "src/notes/brownies-vegani.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from salame-di-cioccolato"
+              "title": "Outgoing links from brownies-vegani"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/notes/salame-di-cioccolato.md",
+                "file": "src/notes/brownies-vegani.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of salame-di-cioccolato"
+              "title": "Outline of brownies-vegani"
             }
           },
           {
@@ -194,8 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "514edd11391d2cb8",
+  "active": "56db33f778d49ad9",
   "lastOpenFiles": [
+    "src/notes/salame-di-cioccolato.md",
+    "src/notes/brownies-vegani.md",
     "public/CNAME",
     "dist/assets/index-Dn2CunqU.js",
     "dist/img/salame.PNG",
@@ -203,7 +205,6 @@
     "dist/assets/index-DHEUBC4U.js",
     "dist/img",
     "public/img",
-    "src/notes/salame-di-cioccolato.md",
     "dist/assets/index-Ce2mM6FZ.js"
   ]
 }
