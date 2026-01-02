@@ -1,3 +1,5 @@
+import fm from 'front-matter';
+
 // Buffer polyfill not strictly needed for basic string parsing with gray-matter in some versions,
 // but if it is, we should rely on a proper polyfill package.
 // For now, trying without explicit node import which breaks Vite build.
@@ -7,8 +9,7 @@ const recipeFiles = import.meta.glob('../notes/*.md', { query: '?raw', eager: tr
 
 export function getAllRecipes() {
     const recipes = Object.entries(recipeFiles).map(([path, content]) => {
-        const defaultContent = content;
-        const { data, content: body } = matter(defaultContent);
+        const { attributes, body } = fm(content);
 
         // Create slug from filename
         // path is usually "../notes/filename.md"
@@ -16,7 +17,7 @@ export function getAllRecipes() {
 
         return {
             slug,
-            ...data,
+            ...attributes, // attributes maps to the YAML frontmatter
             body, // The markdown content
         };
     });
