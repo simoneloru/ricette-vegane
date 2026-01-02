@@ -1,18 +1,22 @@
 ---
-title: "Salame di Cioccolato"
-date: "2024-01-02"
-image: "https://images.unsplash.com/photo-1548810672-127916960867?q=80&w=1000&auto=format&fit=crop"
-tags: ["Dolce", "Cioccolato", "Senza Cottura"]
-difficulty: "Facile"
-time: "20 min (+ 3h riposo)"
+title: Salame di Cioccolato
+date: 2024-01-02
+image: https://images.unsplash.com/photo-1548810672-127916960867?q=80&w=1000&auto=format&fit=crop
+tags:
+  - Dolce
+  - Cioccolato
+  - Senza Cottura
+difficulty: Facile
+time: 20 min (+ 3h riposo)
 servings: 10
-description: "Ricetta classica del salame di cioccolato."
+description: Ricetta classica del salame di cioccolato.
 ingredients:
-  - "130 gr di biscotti secchi (Oro Saiwa per esempio)"
-  - "160 gr di ciocccolato fondente (min. 50% - max. 70%)"
-  - "60 gr di frutta secca (mandorle tostate, nocciole tostate o un qualunque mix a piacere)"
-  - "60 gr di latte vegetale (va bene sia soia che avena)"
-  - "40 gr di olio di semi (se si usa margarina portare a 50 gr)"
+  - 130 gr di biscotti secchi (Oro Saiwa per esempio)
+  - 160 gr di ciocccolato fondente (min. 50% - max. 70%)
+  - 60 gr di frutta secca (mandorle tostate, nocciole tostate o un qualunque mix a piacere)
+  - 60 gr di latte vegetale (va bene sia soia che avena)
+  - 40 gr di olio di semi (se si usa margarina portare a 50 gr)
+  - aroma concentrato al rum (opzionale, mezza fialetta)
 ---
 
 ## Procedimento
