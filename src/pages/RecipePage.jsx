@@ -110,25 +110,28 @@ export default function RecipePage() {
         }
         .recipe-content-grid {
             display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 60px;
+            grid-template-columns: 320px 1fr; /* Sidebar Left, Content Right */
+            gap: 40px; /* Reduced gap */
             margin-top: 60px;
             margin-bottom: 100px;
             position: relative;
         }
         .recipe-body {
-            grid-column: 1;
+            grid-column: 2; /* Content on right */
         }
         .recipe-sidebar {
-            grid-column: 2;
+            grid-column: 1; /* Sidebar on left */
         }
         @media (max-width: 900px) {
             .recipe-content-grid {
                 grid-template-columns: 1fr;
             }
+            .recipe-body {
+                grid-column: 1;
+            }
             .recipe-sidebar {
                 grid-column: 1;
-                order: -1;
+                order: -1; /* Sidebar on top on mobile */
             }
         }
         
