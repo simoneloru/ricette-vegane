@@ -23,6 +23,14 @@ export default function Home() {
 
             <section id="recipes" className="recipes-section container">
                 <h2 className="section-title">Ultime Ricette</h2>
+
+                {recipes.length === 0 && (
+                    <div style={{ textAlign: 'center', padding: '40px', color: '#666' }}>
+                        <p>Nessuna ricetta trovata.</p>
+                        <p style={{ fontSize: '0.9rem' }}>Prova a ricaricare o controlla le ricette in src/notes.</p>
+                    </div>
+                )}
+
                 <div className="recipes-grid">
                     {recipes.map(recipe => (
                         <RecipeCard key={recipe.slug} recipe={recipe} />
