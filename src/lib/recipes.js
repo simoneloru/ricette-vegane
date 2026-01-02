@@ -9,7 +9,24 @@ const recipeFiles = import.meta.glob('../notes/*.md', { query: '?raw', eager: tr
 
 export function getAllRecipes() {
     const recipes = Object.entries(recipeFiles).map(([path, content]) => {
-        const { attributes, body } = fm(content);
+        let attributes = {};
+        let body = '';
+
+        try {
+            // Handle ESM/CommonJS interop for front-matter
+            const parse = typeof fm === 'function' ? fm : fm.default;
+            if (typeof parse !== 'function') {
+                console.error('front-matter library not loaded correctly', fm);
+                throw new Error('front-matter load failed');
+            }
+
+            const parsed = parse(content);
+            attributes = parsed.attributes;
+            body = parsed.body;
+        } catch (e) {
+            console.error(`Error parsing recipe: ${path}`, e);
+            return null; // Skip invalid recipes
+        }
 
         // Create slug from filename
         // path is usually "../notes/filename.md"
@@ -20,7 +37,7 @@ export function getAllRecipes() {
             ...attributes, // attributes maps to the YAML frontmatter
             body, // The markdown content
         };
-    });
+    }).filter(Boolean); // Remove nulls
 
     return recipes.sort((a, b) => new Date(b.date) - new Date(a.date));
 }
