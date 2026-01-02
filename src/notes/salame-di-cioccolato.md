@@ -6,27 +6,25 @@ tags: ["Dolce", "Cioccolato", "Senza Cottura"]
 difficulty: "Facile"
 time: "20 min (+ 3h riposo)"
 servings: 10
-description: "Un classico dolce della tradizione italiana in versione 100% vegetale. Croccante, cioccolatoso e facilissimo da preparare."
+description: "Ricetta classica del salame di cioccolato."
 ingredients:
-  - "130g Biscotti secchi (es. Oro Saiwa)"
-  - "160g Cioccolato fondente (50-70%)"
-  - "60g Frutta secca (mandorle/nocciole tostate)"
-  - "60g Latte vegetale (soia o avena)"
-  - "40g Olio di semi (o 50g margarina)"
+  - "130 gr di biscotti secchi (Oro Saiwa per esempio)"
+  - "160 gr di ciocccolato fondente (min. 50% - max. 70%)"
+  - "60 gr di frutta secca (mandorle tostate, nocciole tostate o un qualunque mix a piacere)"
+  - "60 gr di latte vegetale (va bene sia soia che avena)"
+  - "40 gr di olio di semi (se si usa margarina portare a 50 gr)"
 ---
 
 ## Procedimento
 
-1. **I secchi**: Spacca i biscotti grossolanamente in una ciotola o mettendoli dentro un canovaccio e battendoli.
-
-2. **I liquidi**: Prepara in una ciotola l'olio e il latte vegetale. Se decidi di usare la margarina, scioglila un po' prima o tienila a temperatura ambiente per qualche minuto.
-
-3. **Il cioccolato**: Sciogli il cioccolato a bagnomaria. Quando è ben sciolto, aggiungi l'olio e il latte vegetale e continua ad amalgamare bene il tutto. Mantenerlo a bagnomaria aiuta a portare tutto in temperatura e unire perfettamente gli ingredienti liquidi.
-
-4. **L'unione**: Togli dal fuoco e aggiungi la frutta secca, mescolando bene. Infine aggiungi i biscotti secchi e mescola finché non sono tutti ricoperti di cioccolato.
-
-5. **La forma**: Stendi un foglio di carta da forno su un piano. Rovescia il composto sopra e modellalo dandogli la classica forma a salame. Chiudi i lati stringendo bene le estremità della carta forno come se fosse una caramella.
-
-6. **Riposo**: Tieni in frigo per almeno 3 ore prima di servire.
-
-> **Consiglio:** Si conserva in frigo per una settimana. Ti consiglio di tagliarlo già tutto a fettine prima di servirlo per comodità!
+- spacca i biscotti in una ciotola o dentro un canovaccio
+- prepara in una ciotola l'olio e il latte vegetale. Se decidi di usare la margarina scioglila un po' prima o tienila a temperatura ambiente qualche minuto
+- sciogli il cioccolato a bagnomaria
+- quando il cioccolato è sciolto bene aggiungi olio e latte vegetale e continua ad amalgamare bene il tutto, puoi anche tenerlo a bagnomaria, questo aiuta a portare tutto in temperatura e permette di unire bene tutti gli ingredienti liquidi
+- togli dal fuoco e aggiungi la frutta secca, mescola bene
+- ora aggiungi i biscotti secchi e mescola bene
+- sistema della carta da forno in piano, rovescia tutto sopra e prepara la forma stile salame. 
+- chiudi i lati stringendo bene come se fosse una caramella
+- tieni in frigo per 3 ore minimo
+- si conserva in frigo per una settimana
+- consiglio di tagliare tutte le fettine prima di servire

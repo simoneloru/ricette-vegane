@@ -161,6 +161,20 @@ export default function RecipePage() {
         .markdown-content strong {
             color: var(--color-primary);
         }
+        .markdown-content ul, .markdown-content ol {
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+        .markdown-content ul {
+            list-style-type: disc;
+        }
+        .markdown-content ol {
+            list-style-type: decimal;
+        }
+        .markdown-content li {
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
         .markdown-content blockquote {
             border-left: 4px solid var(--color-accent-pop);
             padding-left: 20px;
