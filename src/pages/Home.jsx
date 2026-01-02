@@ -15,9 +15,13 @@ export default function Home() {
                     <p className="hero-subtitle">
                         Scopri ricette che fanno bene a te e al pianeta. Senza rinunciare al gusto.
                     </p>
-                    <a href="#recipes" className="btn btn-hero">
+                    <button
+                        onClick={() => document.getElementById('recipes')?.scrollIntoView({ behavior: 'smooth' })}
+                        className="btn btn-hero"
+                        style={{ border: 'none', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                    >
                         Scopri le Ricette <ArrowDown size={18} />
-                    </a>
+                    </button>
                 </div>
             </section>
 

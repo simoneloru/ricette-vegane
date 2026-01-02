@@ -13,21 +13,31 @@ export default function IngredientList({ ingredients, defaultServings = 2 }) {
     };
 
     const scaleIngredient = (text) => {
-        // Very basic scaling logic: looks for the first number and scales it
-        // "320g Pasta" -> "320" -> scale -> return new string
+        // Regex to capture "100" or "1,5" or "1.5" or "1/2" at start of string
+        // Matches: Start -> Number/Fraction -> Space -> Rest
         const match = text.match(/^([\d.,/]+)(\s+.*)$/);
         if (!match) return text;
 
-        const numStr = match[1].replace(',', '.'); // normalize decimal
-        const rest = match[2];
+        let numStr = match[1].replace(',', '.'); // Normalize italian comma 1,5 -> 1.5
+
+        // Handle fractions like "1/2" -> 0.5
+        if (numStr.includes('/')) {
+            const [num, den] = numStr.split('/');
+            numStr = parseFloat(num) / parseFloat(den);
+        }
 
         const num = parseFloat(numStr);
         if (isNaN(num)) return text;
 
         const factor = servings / defaultServings;
-        const newNum = Math.round((num * factor) * 10) / 10; // round to 1 decimal
+        const newNum = Math.round((num * factor) * 10) / 10; // Round to 1 decimal
 
-        return `${newNum}${rest}`;
+        // Format back, replacing dot with comma for Italian style if needed, 
+        // though standard JS float usually uses dot. Let's keep dot for simplicity or replace back?
+        // Let's output with standard dot for consistency, or replace if user wants commas.
+        // User used "130 gr", "1,5" etc. Let's keep it simple.
+
+        return `${newNum}${match[2]}`;
     };
 
     return (
