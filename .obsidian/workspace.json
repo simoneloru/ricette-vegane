@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4db0f57f5aa55c1d",
+        "id": "10136573d8efd145",
         "type": "tabs",
         "children": [
           {
-            "id": "ff8ec882c5831084",
+            "id": "56db33f778d49ad9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "src/notes/salame-di-cioccolato.md",
-                "bFile": "src/notes/salame-di-cioccolato.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "src/notes/salame-di-cioccolato.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "diff",
-              "title": "Diff: salame-di-cioccolato"
+              "icon": "lucide-file",
+              "title": "salame-di-cioccolato"
             }
           }
         ]
@@ -95,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/notes/salame-di-cioccolato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for salame-di-cioccolato"
             }
           },
           {
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/notes/salame-di-cioccolato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from salame-di-cioccolato"
             }
           },
           {
@@ -155,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/notes/salame-di-cioccolato.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of salame-di-cioccolato"
             }
           },
           {
@@ -192,8 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "514edd11391d2cb8",
+  "active": "56db33f778d49ad9",
   "lastOpenFiles": [
+    "public/img/salame.PNG",
+    "dist/assets/index-DHEUBC4U.js",
+    "dist/img",
     "public/img",
     "src/notes/salame-di-cioccolato.md",
     "dist/assets/index-Ce2mM6FZ.js"

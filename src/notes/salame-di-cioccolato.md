@@ -1,7 +1,7 @@
 ---
 title: Salame di Cioccolato
 date: 2024-01-02
-image: https://images.unsplash.com/photo-1548810672-127916960867?q=80&w=1000&auto=format&fit=crop
+image: img/salame.PNG
 tags:
   - Dolce
   - Cioccolato
