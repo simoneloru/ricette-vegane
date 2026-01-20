@@ -7,7 +7,7 @@ tags:
   - Cioccolato
   - Cottura al forno
 difficulty: Facile
-time: 15 min (+ 20 di cottura + 1/2h riposo)
+time: 15 min (+ 12 di cottura + 1/2h riposo)
 servings: "25"
 description: Ricetta per polpettine al cioccolato.
 ingredients:
