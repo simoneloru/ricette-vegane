@@ -25,14 +25,14 @@
             "id": "346f8c76557c1d34",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "src/notes/brownies-vegani.md",
-                "bFile": "src/notes/brownies-vegani.md",
-                "aRef": ""
+                "file": "src/notes/choco-bites.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: brownies-vegani"
+              "icon": "lucide-file",
+              "title": "choco-bites"
             }
           }
         ],
@@ -211,9 +211,9 @@
   },
   "active": "346f8c76557c1d34",
   "lastOpenFiles": [
+    "src/notes/brownies-vegani.md",
     "src/notes/choco-bites.md",
     "src/notes/salame-di-cioccolato.md",
-    "src/notes/brownies-vegani.md",
     "public/img/bites.jpg",
     "public/img/brownies.jpg",
     "public/CNAME",
