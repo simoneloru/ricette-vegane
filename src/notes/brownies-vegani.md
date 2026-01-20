@@ -1,5 +1,5 @@
 ---
-title: Brownies vegani
+title: Brownies Vegani
 date: 2024-01-02
 image: img/brownies.jpg
 tags:

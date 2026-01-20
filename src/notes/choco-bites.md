@@ -1,5 +1,5 @@
 ---
-title: Polpettine al cioccolato
+title: Polpettine al Cioccolato
 date: 2024-01-20
 image: img/bites.jpg
 tags:
