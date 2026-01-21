@@ -11,3 +11,7 @@ dist-ssr
 **/digitalgarden/data.json
 .obsidian/plugins/digitalgarden/data.json
 **/.obsidian/plugins/digitalgarden/data.json
+
+# Obsidian personal config
+.obsidian/workspace.json
+
