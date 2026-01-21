@@ -211,6 +211,9 @@
   },
   "active": "514edd11391d2cb8",
   "lastOpenFiles": [
+    "src/components/ShareButton.jsx",
+    "scripts/prerender.js",
+    "scripts",
     "dist/img/salame.PNG",
     "dist/img/brownies.jpg",
     "dist/img/bites.jpg",
@@ -223,14 +226,12 @@
     "dist/CNAME",
     "dist",
     "src/components/SEOMetadata.jsx",
-    "src/lib/recipeUtils.js",
     "public/leaf.svg",
     "src/notes/brownies-vegani.md",
     "src/notes/choco-bites.md",
     "src/notes/salame-di-cioccolato.md",
     "public/img/bites.jpg",
     "public/img/brownies.jpg",
-    "public/CNAME",
     "public/img/salame.PNG"
   ]
 }

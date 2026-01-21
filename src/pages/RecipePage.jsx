@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { getRecipeBySlug, resolveImage } from '../lib/recipes';
 import IngredientList from '../components/IngredientList';
 import SEOMetadata from '../components/SEOMetadata';
+import ShareButton from '../components/ShareButton';
 import { Clock, ChefHat, ArrowLeft } from 'lucide-react';
 
 export default function RecipePage() {
@@ -31,6 +32,12 @@ export default function RecipePage() {
                     <div className="meta">
                         <span><Clock size={16} /> {recipe.time}</span>
                         <span><ChefHat size={16} /> {recipe.difficulty}</span>
+                    </div>
+                    <div style={{ marginTop: '20px' }}>
+                        <ShareButton
+                            title={`Ricetta: ${recipe.title}`}
+                            text={`Guarda questa ricetta vegana: ${recipe.title}`}
+                        />
                     </div>
                 </div>
             </div>
