@@ -1,58 +1,63 @@
-# 🌱 Ricette Vegane
+# 📒 Il Mio Quaderno di Ricette Vegane
 
-Questo sito è il tuo ricettario digitale, facile da aggiornare e bellissimo da vedere.
+Ciao! Ho deciso di spostare online il mio quaderno di ricette per condividerle più facilmente con chi conosco e con chiunque voglia mangiar bene.
+L'idea è semplice: un posto unico, facile da consultare e da aggiornare, dove raccogliere i miei piatti preferiti.
 
-## Come aggiungere una ricetta
+## 📝 Come aggiungere una ricetta
 
-Tutto vive nella cartella `src/notes`. Ogni ricetta è un semplice file di testo (Markdown).
+Tutto il sito si basa su semplici file di testo nella cartella `src/notes`. Niente database complicati.
 
-1.  Crea un file `.md` dentro `src/notes`, es: `torta-cioccolato.md`.
-2.  Incolla questa struttura all'inizio del file (si chiama Frontmatter):
+Vuoi aggiungere una tua ricetta? Ecco come fare:
+
+1.  Vai nella cartella `src/notes` e crea un nuovo file. Il nome deve finire con `.md` (esempio: `torta-di-mele.md`).
+2.  Copia e incolla questa intestazione all'inizio del file (serve per dare titolo, foto e dettagli):
 
 ```yaml
 ---
-title: "Torta al Cioccolato"
-date: "2024-01-02"
+title: "Torta di Mele"
+date: "2024-01-21"
 image: "https://link-immagine.com/torta.jpg"
-tags: ["Dolce", "Cioccolato", "Veloce"]
+tags: ["Dolce", "Colazione", "Classico"]
 difficulty: "Facile"
-time: "40 min"
-servings: 8
-description: "La torta più soffice del mondo."
+time: "45 min"
+servings: 6
+description: "La classica torta della nonna, ma vegana."
 ingredients:
-  - "300g Farina 00"
+  - "300g Farina"
   - "200g Zucchero"
-  - "50g Cacao Amaro"
+  - "3 Mele"
 ---
 ```
 
-3.  Sotto, scrivi il procedimento come un normale testo. Puoi usare **grassetto**, liste, etc.
+3.  Sotto l'intestazione, scrivi la ricetta come preferisci. Aggiungi pure consigli o note personali!
 
-## ⚡️ Workflow Consigliato con Obsidian
+## 🚀 Il metodo veloce (con Obsidian)
 
-Per rendere tutto facilissimo e non toccare mai il terminale:
+Io uso **Obsidian** per scrivere le ricette perché è comodissimo. Se vuoi fare lo stesso:
+1.  Apri la cartella del progetto con Obsidian.
+2.  Installa il plugin "Obsidian Git".
+3.  Configuralo per salvare in automatico.
 
-1.  Apri questa cartella (`RicetteVegane`) come "Vault" in Obsidian.
-2.  Installa il plugin della community **"Obsidian Git"**.
-3.  Configuralo per fare il backup automatico (es. ogni 10 minuti) o usa il comando "Obsidian Git: Commit files and push" quando hai finito di scrivere.
+In questo modo scrivi come se fosse un blocco note e il sito si aggiorna da solo.
 
-In questo modo, ti basta scrivere la ricetta in Obsidian, aspettare il salvataggio automatico (o premere una scorciatoia), e il sito si aggiornerà da solo!
+## 🤝 Vuoi contribuire?
 
-## Come Pubblicare (Prima Volta)
+Se hai una ricetta vegana che dovremmo assolutamente provare, aggiungila pure!
 
-1.  Crea una nuova repository **vuota** su GitHub.
-2.  Carica questi file (se sai usare il terminale):
-    ```bash
-    git remote add origin <URL_DELLA_TUA_REPO>
-    git branch -M main
-    git push -u origin main
-    ```
-3.  Attiva **GitHub Pages** (Settings -> Pages -> Source: GitHub Actions).
+📌 **Piccola regola**: La ricetta deve avere **almeno una foto**! 📸
 
-### Per testare in locale (sul tuo Mac)
-Se vuoi vedere il sito mentre lo modifichi:
+1.  Fai un **Fork** di questo repository.
+2.  Aggiungi il tuo file `.md` seguendo le istruzioni qui sopra (non dimenticare il campo `image`!).
+3.  Mandami una **Pull Request**.
+
+Ogni nuova ricetta è benvenuta nel quaderno!
+
+---
+
+### Per chi vuole smanettare (Esecuzione in locale)
+Se vuoi provare il sito sul tuo computer:
 ```bash
 npm run dev
 ```
-Apri il link che appare (solitamente http://localhost:5173).
+Il sito si aprirà solitamente su http://localhost:5173.
 
