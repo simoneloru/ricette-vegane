@@ -1,5 +1,9 @@
 # 📒 Il Mio Quaderno di Ricette Vegane
 
+**🌍 Sito online:** [ricette.simoneloru.com](https://ricette.simoneloru.com)
+
+Il sito è ospitato su **GitHub Pages**: questo significa che ogni volta che questo repository viene aggiornato (con nuove ricette o correzioni), il sito si aggiorna automaticamente online.
+
 Ciao! Ho deciso di spostare online il mio quaderno di ricette per condividerle più facilmente con chi conosco e con chiunque voglia mangiar bene.
 L'idea è semplice: un posto unico, facile da consultare e da aggiornare, dove raccogliere i miei piatti preferiti.
 
