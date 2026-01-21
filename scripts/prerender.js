@@ -60,7 +60,26 @@ async function main() {
         // Metadata
         const title = `${attributes.title} | Ricette Vegane`;
         const description = attributes.description || 'Una deliziosa ricetta vegana da provare.';
-        const image = resolveUrl(attributes.image);
+
+        // Use optimized social image if available
+        // Original: /img/brownies.jpg -> Social: /img/social/brownies.jpg
+        let imagePath = attributes.image;
+        if (imagePath && !imagePath.startsWith('http')) {
+            // Basic replacement logic, assuming images are in public/img or similar
+            // If path is "img/brownies.jpg", we want "img/social/brownies.jpg"
+            // But our optimizer outputs to dist/img/social/[relativePath]
+            // So if original is /img/brownies.jpg, optimizer makes dist/img/social/brownies.jpg
+            // Web path should be /img/social/brownies.jpg
+
+            // Simplest approach: inject 'social/' before filename
+            const dir = path.dirname(imagePath);
+            const ext = path.extname(imagePath);
+            const name = path.basename(imagePath, ext);
+            // We force .jpg extension because optimize-images.js converts everything to jpeg
+            imagePath = path.join(dir, 'social', `${name}.jpg`);
+        }
+
+        const image = resolveUrl(imagePath);
         const url = `${BASE_URL}/recipe/${slug}`;
 
         // Inject Meta Tags
