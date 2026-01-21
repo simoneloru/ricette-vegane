@@ -35,17 +35,17 @@ async function optimizeImages() {
         return results;
     }
 
-    const images = getImages(PUBLIC_DIR);
+    // We surely have images in public/img
+    // Let's iterate that specifically to avoid hierarchy issues for now
+    // or just fix the relative path logic.
+    const IMG_DIR = path.join(PUBLIC_DIR, 'img');
+    const images = fs.existsSync(IMG_DIR) ? getImages(IMG_DIR) : [];
 
     for (const imagePath of images) {
-        const relativePath = path.relative(PUBLIC_DIR, imagePath);
-        const fileName = path.basename(imagePath);
-        // Only flatten structure for now or replicate?
-        // Let's flatten for simplicity in this implementation since we likely link /img/social/foo.jpg
-        // But if we have subfolders in public/img, we should respect that or handle it.
-        // For RicetteVegane structure is mostly public/img -> foo.jpg
+        // relativePath from public/img. e.g. "brownies.jpg"
+        const relativePath = path.relative(IMG_DIR, imagePath);
 
-        // Let's assume we output to dist/img/social/[relativePath]
+        // Output: dist/img/social/brownies.jpg
         const outputDir = path.dirname(path.join(SOCIAL_IMG_DIR, relativePath));
         if (!fs.existsSync(outputDir)) {
             fs.mkdirSync(outputDir, { recursive: true });
