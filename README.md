@@ -1,13 +1,11 @@
-# 📒 Il Mio Quaderno di Ricette Vegane
-
-**🌍 Sito online:** [ricette.simoneloru.com](https://ricette.simoneloru.com)
-
-Il sito è ospitato su **GitHub Pages**: questo significa che ogni volta che questo repository viene aggiornato (con nuove ricette o correzioni), il sito si aggiorna automaticamente online.
+# Il Mio Quaderno di Ricette Vegane
 
 Ciao! Ho deciso di spostare online il mio quaderno di ricette per condividerle più facilmente con chi conosco e con chiunque voglia mangiar bene.
+Puoi sfogliare il risultato finale qui: [ricette.simoneloru.com](https://ricette.simoneloru.com).
+
 L'idea è semplice: un posto unico, facile da consultare e da aggiornare, dove raccogliere i miei piatti preferiti.
 
-## 📝 Come aggiungere una ricetta
+## Come aggiungere una ricetta
 
 Tutto il sito si basa su semplici file di testo nella cartella `src/notes`. Niente database complicati.
 
@@ -35,7 +33,7 @@ ingredients:
 
 3.  Sotto l'intestazione, scrivi la ricetta come preferisci. Aggiungi pure consigli o note personali!
 
-## 🚀 Il metodo veloce (con Obsidian)
+## Il metodo veloce (con Obsidian)
 
 Io uso **Obsidian** per scrivere le ricette perché è comodissimo. Se vuoi fare lo stesso:
 1.  Apri la cartella del progetto con Obsidian.
@@ -44,11 +42,11 @@ Io uso **Obsidian** per scrivere le ricette perché è comodissimo. Se vuoi fare
 
 In questo modo scrivi come se fosse un blocco note e il sito si aggiorna da solo.
 
-## 🤝 Vuoi contribuire?
+## Vuoi contribuire?
 
 Se hai una ricetta vegana che dovremmo assolutamente provare, aggiungila pure!
 
-📌 **Piccola regola**: La ricetta deve avere **almeno una foto**! 📸
+**Piccola regola**: La ricetta deve avere **almeno una foto**!
 
 1.  Fai un **Fork** di questo repository.
 2.  Aggiungi il tuo file `.md` seguendo le istruzioni qui sopra (non dimenticare il campo `image`!).
@@ -59,7 +57,8 @@ Ogni nuova ricetta è benvenuta nel quaderno!
 ---
 
 ### Per chi vuole smanettare (Esecuzione in locale)
-Se vuoi provare il sito sul tuo computer:
+Il sito è ospitato su **GitHub Pages** e si aggiorna automaticamente ad ogni modifica del repository.
+Se però vuoi provare il sito sul tuo computer prima di inviare modifiche:
 ```bash
 npm run dev
 ```
