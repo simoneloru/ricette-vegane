@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { getRecipeBySlug, resolveImage } from '../lib/recipes';
 import IngredientList from '../components/IngredientList';
+import SEOMetadata from '../components/SEOMetadata';
 import { Clock, ChefHat, ArrowLeft } from 'lucide-react';
 
 export default function RecipePage() {
@@ -20,6 +21,7 @@ export default function RecipePage() {
 
     return (
         <div className="recipe-page">
+            <SEOMetadata recipe={recipe} />
             <div className="recipe-hero-image">
                 <img src={resolveImage(recipe.image)} alt={recipe.title} />
                 <div className="overlay"></div>
