@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "choco-bites"
             }
+          },
+          {
+            "id": "73b1f061125651f1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,19 +221,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "514edd11391d2cb8",
+  "active": "73b1f061125651f1",
   "lastOpenFiles": [
-    "dist/404.html",
-    "dist/recipe/salame-di-cioccolato/index.html",
-    "dist/recipe/choco-bites/index.html",
-    "dist/recipe/brownies-vegani/index.html",
-    "dist/recipe/salame-di-cioccolato",
-    "dist/recipe/choco-bites",
-    "dist/recipe/brownies-vegani",
-    "dist/recipe",
-    "dist/assets/index-XN8-8KUd.js",
-    "src/components/ShareButton.jsx",
-    "scripts/prerender.js",
+    "dist/img/social/img/salame.PNG",
+    "dist/img/social/img/brownies.jpg",
+    "dist/img/social/img/bites.jpg",
+    "dist/img/social/img",
+    "dist/img/social",
+    "scripts/optimize-images.js",
+    "node_modules/sharp/node_modules/semver/ranges/valid.js",
+    "node_modules/sharp/node_modules/semver/ranges/to-comparators.js",
+    "node_modules/sharp/node_modules/semver/ranges/subset.js",
+    "node_modules/sharp/node_modules/semver/ranges/simplify.js",
+    "node_modules/sharp/node_modules/semver/ranges/outside.js",
+    "node_modules/sharp/node_modules/semver/ranges/min-version.js",
+    "node_modules/sharp/node_modules/semver/ranges/min-satisfying.js",
+    "node_modules/sharp/node_modules/semver/README.md",
+    "node_modules/sharp/README.md",
+    "node_modules/@img/sharp-libvips-darwin-arm64/README.md",
+    "node_modules/@img/sharp-darwin-arm64/README.md",
+    "node_modules/@img/colour/README.md",
+    "node_modules/@img/colour/LICENSE.md",
+    "node_modules/detect-libc/README.md",
     "dist/img/salame.PNG",
     "dist/img/brownies.jpg",
     "dist/img/bites.jpg",
