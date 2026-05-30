@@ -44,11 +44,23 @@
                 "currentVersion": "1.11.5"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "title": "Note di rilascio 1.11.5"
+            }
+          },
+          {
+            "id": "619b6d42de37d508",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Note di rilascio 1.12.7"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -71,7 +83,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -211,17 +223,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73b1f061125651f1",
+  "active": "619b6d42de37d508",
   "lastOpenFiles": [
     "dist/img/social/img/salame.PNG",
     "dist/img/social/img/brownies.jpg",
